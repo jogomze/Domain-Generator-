@@ -1,11 +1,9 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+let prefix = ["Amazing", "Cool", "Big", "Super", "Very", "Inmportant"];
+let word = ["code", "tech", "program", "database", "software", "software"];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+for (let i = 0; i < prefix.length; i++) {
+  for (let j = 0; j < word.length; j++) {
+    console.log(prefix[i] + word[j] + ".com");
+  }
+}
+document.getElementById("domain").innerHTML = "Hello";
